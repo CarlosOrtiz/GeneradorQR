@@ -95,7 +95,7 @@
     <Content Include="Views\PrivateViews\js\demo\datatables-demo.js" />
     <Content Include="Views\PrivateViews\js\sb-admin-2.js" />
     <Content Include="Views\PrivateViews\js\sb-admin-2.min.js" />
-    <Content Include="Views\PrivateViews\login.html" />
+    <Content Include="Views\PrivateViews\Login.aspx" />
     <Content Include="Views\PrivateViews\Usuarios.aspx" />
     <Content Include="Views\PrivateViews\vendor\bootstrap\js\bootstrap.bundle.js" />
     <Content Include="Views\PrivateViews\vendor\bootstrap\js\bootstrap.bundle.min.js" />
@@ -1725,6 +1725,13 @@
     </Compile>
     <Compile Include="Views\PrivateViews\IndexAdmin.aspx.designer.cs">
       <DependentUpon>IndexAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PrivateViews\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PrivateViews\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\PrivateViews\Usuarios.aspx.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
